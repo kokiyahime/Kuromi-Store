@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body {
+    min-height: 100vh;
+    background-image: url("hearts.png"), linear-gradient(to bottom right, #FFD7F0,#F0EBFF);
+    background-color: transparent;
+    background-size:contain;
+    
+}
+
+div.wrap {
+    width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.img.kuromi {
+    width: 100%;
+    margin-right: auto;
+    margin-right: auto;
+    position: absolute;
+
+}
+
+.img.hearts {
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.motto {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+
+.btn {
+    position: relative;
+    padding: 5px;
+}
